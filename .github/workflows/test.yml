@@ -1,0 +1,15 @@
+name: My First GitHub Action
+on: [push]
+jobs:
+  build-app:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      - run: CI=false
+      - uses: actions/setup-node@v3
+        with:
+          node-version: "18.0"
+      - name: Install node modules
+        run: yarn install
+      - name: Build the project
+        run: CI='' yarn build
