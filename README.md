@@ -1,6 +1,6 @@
 
 Inline-style: 
-![alt text](https://www.sanjayguwaju.com.np "Logo Title Text 1")
+![alt text](https://www.nabinashahi.com.np "Logo Title Text 1")
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
